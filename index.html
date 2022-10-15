@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+
+    <script src="index.js" defer></script>
+    <style>
+        .cell {
+            background-color: #ebf2ff;
+            width: 30px;
+            height: 30px;
+        }
+
+        .snake {
+            background-color: blue;
+        }
+
+        .head {
+            background-color: blueviolet;
+        }
+
+        .food {
+            background-color: tomato;
+        }
+
+        .row {
+            display: flex;
+            flex-grow: 1;
+            gap: 3px;
+            align-self: center;
+        }
+
+        #root {
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            margin: 200px auto;
+            outline: 1px solid #ebf2ff;
+            padding: 30px;
+        }
+    </style>
+
+</body>
+
+</html>
